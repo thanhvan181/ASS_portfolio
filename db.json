@@ -1,0 +1,38 @@
+{
+  "work": [
+    { "id": 1, 
+      "img": "https://picsum.photos/246/180",
+      "work": "Designing Dashboards",
+      "status": "Dashboard",
+      "year": "2020",
+      "desc": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet."
+
+     },
+     { "id": 2, 
+      "img": "https://picsum.photos/246/180",
+      "work": "Vibrant Portraits of 2020",
+      "status": "Illustration",
+      "year": "2020",
+      "desc": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet."
+
+     },
+     { "id": 3, 
+      "img": "https://picsum.photos/246/180",
+      "work": "36 Days of Malayalam type",
+      "status": "Typography",
+      "year": "2020",
+      "desc": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet."
+
+     },
+     { "id": 4, 
+      "img": "https://picsum.photos/246/180",
+      "work": "Components",
+      "status": "Components, Design",
+      "year": "2020",
+      "desc": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet."
+
+     }
+
+  ]
+ 
+}

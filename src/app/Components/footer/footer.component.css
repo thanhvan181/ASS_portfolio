@@ -1,0 +1,3 @@
+.footer--thumb{
+    @apply flex flex-row-reverse flex-nowrap content-center justify-center
+}

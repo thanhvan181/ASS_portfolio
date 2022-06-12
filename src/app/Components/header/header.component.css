@@ -1,0 +1,9 @@
+.custom-container {
+    @apply max-w-5xl mx-auto px-5;
+  }
+  .section-header{
+    @apply flex justify-between items-center py-5
+}
+.section-header__title{
+    @apply text-[22px]
+}

@@ -21,7 +21,13 @@ import { NavbarComponent } from './Components/navbar/navbar.component';
 import { FooterAdminComponent } from './Components/footer-admin/footer-admin.component';
 import { TableComponent } from './Components/table/table.component';
 import { ManageWorkComponent } from './Pages/manage-work/manage-work.component';
-import { HttpClientModule } from '@angular/common/http'
+import { HttpClientModule } from '@angular/common/http';
+import { FormComponent } from './Components/form/form.component';
+import { WorkaddComponent } from './Pages/workadd/workadd.component'
+import { ReactiveFormsModule } from '@angular/forms';
+import { FormsModule } from '@angular/forms';
+import { LoginComponent } from './Components/login/login.component';
+import { SingupComponent } from './Components/singup/singup.component';
 
 
 
@@ -45,12 +51,21 @@ import { HttpClientModule } from '@angular/common/http'
     NavbarComponent,
     FooterAdminComponent,
     TableComponent,
-    ManageWorkComponent
+    ManageWorkComponent,
+    FormComponent,
+    WorkaddComponent,
+    LoginComponent,
+    SingupComponent,
+   
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    ReactiveFormsModule,
+   
+    FormsModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]

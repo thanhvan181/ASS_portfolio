@@ -1,0 +1,104 @@
+<div class="card mb-6">
+  <header class="card-header">
+    <p class="card-header-title">
+      <span class="icon"><i class="mdi mdi-ballot"></i></span>
+      add/edit -work
+    </p>
+  </header>
+  <div class="card-content">
+    <form action="" #formAdd="ngForm" (ngSubmit)="onSubmit()">
+      <div class="mb-5">
+        <label for="workname" class="block mb-2 font-bold text-gray-600"
+          >Name</label
+        >
+        <input
+          name="workname"
+          #workname="ngModel"
+          [(ngModel)]="work.workname"
+          type="text"
+          id="workname"
+          required
+          minlength="2"
+          placeholder="Put in your fullname."
+          class="border border-gray-300 shadow p-3 w-full rounded mb-"
+        />
+        <div
+          *ngIf="workname.invalid && (workname.dirty || workname.touched)"
+          class="alert"
+        >
+          <div *ngIf="workname.errors?.['required']" class="alert">
+            Name is required
+          </div>
+          <div
+            *ngIf="workname.errors?.['minlength']"
+            class="alert alert-danger"
+          >
+            Min length la 2
+          </div>
+        </div>
+      </div>
+
+      <div class="mb-5">
+        <label for="name" class="block mb-2 font-bold text-gray-600"
+          >Image</label
+        >
+        <input
+          type="file"
+          [(ngModel)]="work.img"
+          id="img"
+          name="img"
+          placeholder="Put in your fullname."
+          class="border border-gray-300 shadow p-3 w-full rounded mb-"
+        />
+      </div>
+      <div class="mb-5">
+        <label for="name" class="block mb-2 font-bold text-gray-600"
+          >Year</label
+        >
+        <input
+          type="date"
+          [(ngModel)]="work.year"
+          id="name"
+          name="year"
+          placeholder="Put in your fullname."
+          class="border border-gray-300 shadow p-3 w-full rounded mb-"
+        />
+      </div>
+
+      <div class="mb-5">
+        <label for="name" class="block mb-2 font-bold text-gray-600"
+          >Status</label
+        >
+        <input
+          class="form-control"
+          required
+          minlength="4"
+          #status="ngModel"
+          [(ngModel)]="work.status"
+          type="text"
+          name="status"
+          placeholder="Put in your status."
+        />
+      </div>
+      <div class="mb-5">
+        <label for="name" class="block mb-2 font-bold text-gray-600"
+          >Desscription</label
+        >
+        <textarea
+          class="form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
+          id="exampleFormControlTextarea1"
+          rows="3"
+          placeholder="Your message"
+        >
+        </textarea>
+      </div>
+
+      <button
+        [disabled]="!formAdd.valid"
+        class="block w-full bg-blue-500 text-white font-bold p-4 rounded-lg"
+      >
+        Submit
+      </button>
+    </form>
+  </div>
+</div>

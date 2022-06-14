@@ -23,7 +23,7 @@ export class WorkService {
   addWork(work: any): Observable<IWork> {
     return this.http.post<IWork>(`${this.API_URL}`, work)
   }
-  updateWork(id: number, work:any): Observable<IWork>{
-    return this.http.put<IWork>(`${this.API_URL}/${id}`, work)
+  updateWork(work: IWork): Observable<IWork> {
+    return this.http.put<IWork>(`${this.API_URL}/${work.id}`, work);
   }
 }

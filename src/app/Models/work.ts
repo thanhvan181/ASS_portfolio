@@ -1,8 +1,8 @@
 export type IWork = {
-    id: number,
+   id?:number
     img: string,
 
-    work: string,
+    workname: string,
     status: string,
     year: string,
     desc: string,

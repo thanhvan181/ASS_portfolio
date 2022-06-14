@@ -1,22 +1,22 @@
 <section>
     <div class="custom-container">
         <div class="">
-            <h1 class="text-[30px] font-bold ">Blog</h1>
+            <h1 class="text-[30px] font-bold ">Work</h1>
         </div>
-
-        <div class="section-body">
+       
+        <div *ngFor="let items of workList; let i = index" class="section-body">
             <div class="project__item grid md:grid-cols-[246px,auto] gap-4">
                 <div class="project__img">
-                    <a href="/work-detail"><img src="https://picsum.photos/246/180" alt=""
+                    <a href="/work-detail/{{items.id}}"><img src={{items.img}} alt=""
                             class="project__thumb"></a>
                 </div>
                 <div class="project__content">
-                    <a href="">
-                        <h3 class="project__name">Designing Dashboards</h3>
+                    <a href="/work-detail/{{items.id}}">
+                        <h3 class="project__name">{{items.workname}}</h3>
                     </a>
                     <div class="project__meta">
-                        <span class="project__create">2020</span>
-                        <a href="" class="project_category">Dashboard</a>
+                        <span class="project__create">{{items.year}}</span>
+                        <a href="" class="project_category">{{items.status}}</a>
                     </div>
                     <p class="recent-post__desc">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
                         sint. Velit officia
@@ -25,67 +25,7 @@
                 </div>
             </div>
         </div>
-        <div class="section-body">
-            <div class="project__item grid md:grid-cols-[246px,auto] gap-4">
-                <div class="project__img">
-                    <a href="/work-detail"><img src="https://picsum.photos/246/180" alt=""
-                            class="project__thumb"></a>
-                </div>
-                <div class="project__content">
-                    <a href="">
-                        <h3 class="project__name">Vibrant Portraits of 2020</h3>
-                    </a>
-                    <div class="project__meta">
-                        <span class="project__create">2018</span>
-                        <a href="" class="project_category">Illustration</a>
-                    </div>
-                    <p class="project__desc">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
-                        sint. Velit officia
-                        consequat duis enim velit
-                        mollit. Exercitation veniam consequat sunt nostrud amet.</p>
-                </div>
-            </div>
-        </div>
-        <div class="section-body">
-            <div class="project__item grid md:grid-cols-[246px,auto] gap-4">
-                <div class="project__img">
-                    <a href="/work-detail
-                  "><img src="https://picsum.photos/246/180" alt="" class="project__thumb"></a>
-                </div>
-                <div class="project__content">
-                    <a href="">
-                        <h3 class="project__name">36 Days of Malayalam type</h3>
-                    </a>
-                    <div class="project__meta">
-                        <span class="project__create">2018</span>
-                        <a href="work-detail.html" class="project_category">Typography</a>
-                    </div>
-                    <p class="recent-post__desc">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
-                        sint. Velit officia
-                        consequat duis enim velit
-                        mollit. Exercitation veniam consequat sunt nostrud amet.</p>
-                </div>
-            </div>
-        </div>
-        <div class="section-body">
-            <div class="project__item grid md:grid-cols-[246px,auto] gap-4">
-                <div class="project__img">
-                    <a href="work-detail.html"><img src="https://picsum.photos/246/180" alt=""
-                            class="project__thumb"></a>
-                </div>
-                <div class="project__content">
-                    <h3 class="project__name">Components</h3>
-                    <div class="project__meta">
-                        <span class="project__create">2018</span>
-                        <a href="work-detail.html" class="project_category">Components, Design</a>
-                    </div>
-                    <p class="recent-post__desc">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
-                        sint. Velit officia
-                        consequat duis enim velit
-                        mollit. Exercitation veniam consequat sunt nostrud amet.</p>
-                </div>
-            </div>
-        </div>
+       
     </div>
 
 </section>

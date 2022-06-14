@@ -20,5 +20,16 @@ export class TableComponent implements OnInit {
   showWork(){
     this.WorkService.getWorks().subscribe(data => this.workList = data)
   }
+  onRemoveItem(id: number) {
+    const confirm = window.confirm('Bạn có chắc chắn muốn xóa không?');
+    if (confirm) {
+      // call api xoa
+      this.WorkService.removeWork(id).subscribe(() => {
+        // reRender
+        this.workList = this.workList.filter(item => item.id !== id);
+      });
+    }
+
+  }
 
 }

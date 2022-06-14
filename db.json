@@ -1,38 +1,86 @@
 {
   "work": [
-    { "id": 1, 
+    {
+      "id": 1,
       "img": "https://picsum.photos/246/180",
       "work": "Designing Dashboards",
       "status": "Dashboard",
       "year": "2020",
       "desc": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet."
-
-     },
-     { "id": 2, 
+    },
+    {
+      "id": 2,
       "img": "https://picsum.photos/246/180",
       "work": "Vibrant Portraits of 2020",
       "status": "Illustration",
       "year": "2020",
       "desc": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet."
-
-     },
-     { "id": 3, 
+    },
+    {
+      "id": 3,
       "img": "https://picsum.photos/246/180",
       "work": "36 Days of Malayalam type",
       "status": "Typography",
       "year": "2020",
       "desc": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet."
-
-     },
-     { "id": 4, 
+    },
+    {
+      "id": 4,
       "img": "https://picsum.photos/246/180",
       "work": "Components",
       "status": "Components, Design",
       "year": "2020",
       "desc": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet."
-
-     }
-
+    },
+    {
+      "id": 5,
+      "workname": "Du an ReactJs",
+      "img": "C:\\fakepath\\images (1).jpeg",
+      "desc": "",
+      "status": "React, Rudux-tookit",
+      "year": "2022-06-25"
+    },
+    {
+      "id": 6,
+      "workname": "Du an mau",
+      "img": "",
+      "desc": "",
+      "status": "React, Rudux-tookit",
+      "year": "2022-06-26"
+    },
+    {
+      "workname": "Du an 1 33334",
+      "img": "",
+      "desc": "",
+      "status": "React, Rudux-tookit, mongo",
+      "year": "2022-06-25",
+      "id": 7
+    }
+  ],
+  "users": [
+    {
+      "name": "nguyenvan",
+      "email": "nguyenthivan18012000@gmail.com",
+      "password": "12345",
+      "id": 1
+    },
+    {
+      "email": "thuyvan@gmail.com",
+      "password": "$2a$10$0NtM16aZE/487Px8FwA49u9vBs4QEManU/7w9mLq.XmYDq2pphj4q",
+      "name": "thuyvan",
+      "id": 2
+    },
+    {
+      "email": "nguyendb@gmail.com",
+      "password": "$2a$10$tRdks55UT6Tff463yBp./.UJ/Hgct/aEubXwmmqottndokD6o2AY2",
+      "name": "nguyendb",
+      "id": 3
+    },
+    {
+      "email": "congdinh@gmail.com",
+      "password": "$2a$10$uLpmY8u6MZU4Swl5xSH8Iu.8g5sjxGYMiWfWpkcSWEWZLB69ka8AK",
+      "name": "sksksk",
+      "id": 4
+    }
   ]
- 
 }

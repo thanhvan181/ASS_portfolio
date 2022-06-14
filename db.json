@@ -59,28 +59,16 @@
   ],
   "users": [
     {
-      "name": "nguyenvan",
-      "email": "nguyenthivan18012000@gmail.com",
-      "password": "12345",
+      "email": "admin@gmail.com",
+      "password": "$2a$10$nhE40rgINxxgbgQNaDycW.bwiCruRe.xOOhST4lweEkFSEAf3uFqC",
+      "name": "admin",
       "id": 1
     },
     {
-      "email": "thuyvan@gmail.com",
-      "password": "$2a$10$0NtM16aZE/487Px8FwA49u9vBs4QEManU/7w9mLq.XmYDq2pphj4q",
-      "name": "thuyvan",
+      "email": "member@gmail.com",
+      "password": "$2a$10$nrvRv8N6Hm/gupJN0TiYFuhD5sCpCERfUbJQ6pJrV6AFmW55LTUnK",
+      "name": "member",
       "id": 2
-    },
-    {
-      "email": "nguyendb@gmail.com",
-      "password": "$2a$10$tRdks55UT6Tff463yBp./.UJ/Hgct/aEubXwmmqottndokD6o2AY2",
-      "name": "nguyendb",
-      "id": 3
-    },
-    {
-      "email": "congdinh@gmail.com",
-      "password": "$2a$10$uLpmY8u6MZU4Swl5xSH8Iu.8g5sjxGYMiWfWpkcSWEWZLB69ka8AK",
-      "name": "sksksk",
-      "id": 4
     }
   ]
 }

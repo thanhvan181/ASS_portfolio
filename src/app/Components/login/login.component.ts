@@ -31,14 +31,16 @@ export class LoginComponent implements OnInit {
     })
   }
   login(formAuth:any) {
+    console.log(formAuth.value);
     
-    // this.AuthenService.signin(formAuth.value).subscribe((data)=> {
-    //   localStorage.setItem("user", JSON.stringify(data)
-    //   )
-    //   alert("dang nhap thanh cong");
+    this.AuthenService.signin(formAuth.value).subscribe((data)=> {
+      localStorage.setItem("user", JSON.stringify(data)
+      )
+      this.router.navigateByUrl("/admin")
+      alert("dang nhap thanh cong");
 
     
-    // })
+    })
    
 
   }

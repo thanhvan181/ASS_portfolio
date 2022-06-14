@@ -15,40 +15,37 @@ import { WorkaddComponent } from './Pages/workadd/workadd.component';
 import { AuthGuard } from './Services/auth.guard';
 
 const routes: Routes = [
-  
- 
-  {path: "admin", component: AdminLayoutComponent, 
-  canActivate: [AuthGuard],
-  
-   children: [
-    { path: "", component: AdminComponent },
+  {
+    path: 'admin',
+    component: AdminLayoutComponent,
+    canActivate: [AuthGuard],
 
-    { path: "a-work", component: ManageWorkComponent },
-    { path: "a-work/add", component: WorkaddComponent },
-    { path: "a-work/edit/:id", component: WorkaddComponent },
-    // { path: "login", component: LoginComponent },
-   
+    children: [
+      { path: '', component: AdminComponent },
 
-   
-
-  ]},
-  {path: "", component: WebsiteLayoutComponent , children: [
-    { path: "", component: WebsiteComponent },
-    { path: "blog", component: BlogComponent },
-    { path: "work", component: WorkComponent },
-    { path: "work-detail/:id", component: WorkDetailComponent },
-    { path: "signin", component: LoginComponent },
-    { path: "signup", component: SingupComponent },
-    
-    
-    
-
-  ]},
-  { path: "**", component: NotfoundComponent },
+      { path: 'a-work', component: ManageWorkComponent },
+      { path: 'a-work/add', component: WorkaddComponent },
+      { path: 'a-work/edit/:id', component: WorkaddComponent },
+      // { path: "login", component: LoginComponent },
+    ],
+  },
+  {
+    path: '',
+    component: WebsiteLayoutComponent,
+    children: [
+      { path: '', component: WebsiteComponent },
+      { path: 'blog', component: BlogComponent },
+      { path: 'work', component: WorkComponent },
+      { path: 'work-detail/:id', component: WorkDetailComponent },
+      { path: 'signin', component: LoginComponent },
+      { path: 'signup', component: SingupComponent },
+    ],
+  },
+  { path: '**', component: NotfoundComponent },
 ];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {}

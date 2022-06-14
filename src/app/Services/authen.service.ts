@@ -18,7 +18,7 @@ export class AuthenService {
     return this.http.post<IAuth>(`${this.API_URL}/signup`, user)
   }
   signin(user: any): Observable<IAuth> {
-    return this.http.post<IAuth>(`http://localhost:3000/signin`, user)
+    return this.http.post<IAuth>(this.API_URL + `/signin`, user)
   }
   
   

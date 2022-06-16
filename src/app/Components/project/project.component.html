@@ -5,68 +5,24 @@
                 Featured works
             </h2>
         </div>
-        <div class="section-body">
+        <div *ngFor="let work of workList" class="section-body">
             <div class="project__item grid md:grid-cols-[246px,auto] gap-4">
                 <div class="project__img">
-                    <a href="work-detail.html"><img src="https://picsum.photos/246/180" alt=""
+                    <a href="/work-detail/{{work.id}}"><img src="{{work.img}}" alt="" width="200" height="200"
                             class="project__thumb"></a>
                 </div>
                 <div class="project__content">
-                    <a href="work-detail.html">
-                        <h3 class="project__name">36 Days of Malayalam type</h3>
+                    <a href="/work-detail/{{work.id}}">
+                        <h3 class="project__name">{{work.workname}}</h3>
                     </a>
                     <div class="project__meta">
-                        <span class="project__create">2020</span>
-                        <a href="" class="project_category">Dashboard</a>
+                        <span class="project__create">{{work.year}}</span>
+                        <a href="" class="project_category">{{work.status}}</a>
                     </div>
-                    <p class="project__desc">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
-                        sint. Velit officia
-                        consequat duis enim velit
-                        mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                    <p class="project__desc">{{work.desc}}</p>
                 </div>
             </div>
         </div>
-        <div class="section-body">
-            <div class="project__item grid md:grid-cols-[246px,auto] gap-4">
-                <div class="project__img">
-                    <a href="work-detail.html"><img src="https://picsum.photos/246/180" alt=""
-                            class="project__thumb"></a>
-                </div>
-                <div class="project__content">
-                    <a href="work-detail.html">
-                        <h3 class="project__name">36 Days of Malayalam type</h3>
-                    </a>
-                    <div class="project__meta">
-                        <span class="project__create">2018</span>
-                        <a href="" class="project_category">Illustration</a>
-                    </div>
-                    <p class="recent-post__desc">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
-                        sint. Velit officia
-                        consequat duis enim velit
-                        mollit. Exercitation veniam consequat sunt nostrud amet.</p>
-                </div>
-            </div>
-        </div>
-        <div class="section-body">
-            <div class="project__item grid md:grid-cols-[246px,auto] gap-4">
-                <div class="project__img">
-                    <a href="work-detail.html"><img src="https://picsum.photos/246/180" alt=""
-                            class="project__thumb"></a>
-                </div>
-                <div class="project__content">
-                    <a href="work-detail.html">
-                        <h3 class="project__name">36 Days of Malayalam type</h3>
-                    </a>
-                    <div class="project__meta">
-                        <span class="project__create">2018</span>
-                        <a href="" class="project_category">Typography</a>
-                    </div>
-                    <p class="recent-post__desc">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
-                        sint. Velit officia
-                        consequat duis enim velit
-                        mollit. Exercitation veniam consequat sunt nostrud amet.</p>
-                </div>
-            </div>
-        </div>
+       
     </div>
 </section>

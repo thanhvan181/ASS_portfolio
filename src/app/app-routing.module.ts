@@ -6,7 +6,9 @@ import { AdminLayoutComponent } from './Layouts/admin-layout/admin-layout.compon
 import { WebsiteLayoutComponent } from './Layouts/website-layout/website-layout.component';
 import { AdminComponent } from './Pages/admin/admin.component';
 import { BlogComponent } from './Pages/blog/blog.component';
+import { ContactComponent } from './Pages/contact/contact.component';
 import { ManageWorkComponent } from './Pages/manage-work/manage-work.component';
+import { ManagerblogComponent } from './Pages/managerblog/managerblog.component';
 import { NotfoundComponent } from './Pages/notfound/notfound.component';
 import { WebsiteComponent } from './Pages/website/website.component';
 import { WorkDetailComponent } from './Pages/work-detail/work-detail.component';
@@ -26,7 +28,7 @@ const routes: Routes = [
       { path: 'a-work', component: ManageWorkComponent },
       { path: 'a-work/add', component: WorkaddComponent },
       { path: 'a-work/edit/:id', component: WorkaddComponent },
-      // { path: "login", component: LoginComponent },
+      { path: "a-block", component: ManagerblogComponent },
     ],
   },
   {
@@ -39,6 +41,7 @@ const routes: Routes = [
       { path: 'work-detail/:id', component: WorkDetailComponent },
       { path: 'signin', component: LoginComponent },
       { path: 'signup', component: SingupComponent },
+      { path: 'contact', component: ContactComponent },
     ],
   },
   { path: '**', component: NotfoundComponent },

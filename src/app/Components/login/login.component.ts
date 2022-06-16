@@ -36,8 +36,19 @@ export class LoginComponent implements OnInit {
     this.AuthenService.signin(formAuth.value).subscribe((data)=> {
       localStorage.setItem("user", JSON.stringify(data)
       )
-      this.router.navigateByUrl("/admin")
-      alert("dang nhap thanh cong");
+      if(localStorage.getItem("user")){
+        const user= JSON.parse(localStorage.getItem("user") as any);
+        if(user.user.id === 1) {
+          this.router.navigateByUrl("/admin")
+          alert("xin chao admmin");
+
+        }
+        else{
+          this.router.navigateByUrl("/")
+          alert("dang nhap thanh cong");
+        }
+      }
+     
 
     
     })

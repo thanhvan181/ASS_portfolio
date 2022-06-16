@@ -28,6 +28,9 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { FormsModule } from '@angular/forms';
 import { LoginComponent } from './Components/login/login.component';
 import { SingupComponent } from './Components/singup/singup.component';
+import { ContactComponent } from './Pages/contact/contact.component';
+import { ManagerblogComponent } from './Pages/managerblog/managerblog.component';
+import { TableblogComponent } from './Components/tableblog/tableblog.component';
 
 
 
@@ -56,6 +59,9 @@ import { SingupComponent } from './Components/singup/singup.component';
     WorkaddComponent,
     LoginComponent,
     SingupComponent,
+    ContactComponent,
+    ManagerblogComponent,
+    TableblogComponent,
    
   ],
   imports: [

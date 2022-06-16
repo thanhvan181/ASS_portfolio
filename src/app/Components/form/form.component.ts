@@ -40,6 +40,7 @@ export class FormComponent implements OnInit {
       // call services edit product
       // nếu thành công thì trả về sản phẩm vừa cập nhật xong
       this.WorkService.updateWork(this.work).subscribe(data => console.log(data))
+      this.router.navigateByUrl('/admin/a-work');
     } else {
       // call service add product
       this.WorkService.addWork(this.work).subscribe(data => {

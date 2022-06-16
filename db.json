@@ -2,73 +2,95 @@
   "work": [
     {
       "id": 1,
-      "img": "https://picsum.photos/246/180",
-      "work": "Designing Dashboards",
+      "img": "https://sharecode.vn/FilesUpload/CodeUpload/free-source-code-website-reactjs-phone-e-commerce-full-source-code-155117.jpg",
+      "workname": "Designing Dashboards",
       "status": "Dashboard",
       "year": "2020",
-      "desc": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet."
+      "desc": "Project using redux, redux toolkit , mongodb, json-server, json-server-auth, vscode ...."
     },
     {
       "id": 2,
-      "img": "https://picsum.photos/246/180",
-      "work": "Vibrant Portraits of 2020",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVZ_18PpK3ApvYCfWlbjf4bdgcdDDxRNIfpQo1jhcdvSeIlV9R0QyVOikvAAOqduSnYwk&usqp=CAU",
+      "workname": "Vibrant Portraits of 2020",
       "status": "Illustration",
       "year": "2020",
       "desc": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet."
     },
     {
       "id": 3,
-      "img": "https://picsum.photos/246/180",
-      "work": "36 Days of Malayalam type",
+      "img": "https://sourcecodefree.org/public/images/164_1_5aea006f3060a.png",
+      "workname": "Du an ty USD",
       "status": "Typography",
       "year": "2020",
-      "desc": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet."
+      "desc": "Project using redux, redux toolkit , mongodb, json-server, json-server-auth, vscode ...."
     },
     {
       "id": 4,
       "img": "https://picsum.photos/246/180",
-      "work": "Components",
+      "workname": "Components",
       "status": "Components, Design",
       "year": "2020",
-      "desc": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet."
+      "desc": "Project using redux, redux toolkit , mongodb, json-server, json-server-auth, vscode ....."
     },
     {
       "id": 5,
       "workname": "Du an ReactJs",
-      "img": "C:\\fakepath\\images (1).jpeg",
-      "desc": "",
+      "img": "https://sourcecodefree.org/public/images/3_screencapture-localhost-8080-eshopv20-product-list-htm-1507214445524_59d77d4eb8be7.png",
+      "desc": "Project using redux, redux toolkit , mongodb, json-server, json-server-auth, vscode .....",
       "status": "React, Rudux-tookit",
       "year": "2022-06-25"
     },
     {
       "id": 6,
       "workname": "Du an mau",
-      "img": "",
-      "desc": "",
+      "img": "https://i.ytimg.com/vi/mZkhwBP3O4w/maxresdefault.jpg",
+      "desc": "Project using redux, redux toolkit , mongodb, json-server, json-server-auth, vscode .....",
       "status": "React, Rudux-tookit",
       "year": "2022-06-26"
     },
     {
       "workname": "Du an 1 33334",
-      "img": "",
-      "desc": "",
+      "img": "http://file.hstatic.net/1000192210/article/screen_shot_2019-11-22_at_3.57.06_pm_9d6995976fa145cf9e290725bb5e51e9.png",
+      "desc": "Project using redux, redux toolkit , mongodb, json-server, json-server-auth, vscode .....",
       "status": "React, Rudux-tookit, mongo",
       "year": "2022-06-25",
       "id": 7
     }
   ],
+  "post": [
+    {
+      "id": 1,
+      "title": "KHI CODE MÀ BÍ THÌ PHẢI LÀM SAO? ",
+      "description": "Với những bạn đang bắt đầu học lập trình hoặc vừa mới đi làm, đôi khi các bạn sẽ bị… bí, không biết code hoặc giải quyết vấn đề như thế nào (Thật ra mình đi làm lâu rồi nhiều khi cũng bị",
+      "date": "12 Feb 2020"
+    },
+    {
+      "id": 2,
+      "title": "REVIEW NHẸ CÁC NGÔN NGỮ, CÔNG NGHỆ",
+      "description": "Hiện tại, mình đang làm tại SwatMobility. Team dev cũng nho nhỏ (tổng cộng tầm 8-10 người), nhưng anh em làm việc rất vui và chuyên nghiệp!",
+      "date": "12 Feb 2020"
+    }
+  ],
   "users": [
     {
-      "email": "admin@gmail.com",
-      "password": "$2a$10$nhE40rgINxxgbgQNaDycW.bwiCruRe.xOOhST4lweEkFSEAf3uFqC",
-      "name": "admin",
+      "email": "nguyenthivan18012000@gmail.com",
+      "password": "$2a$10$hBEH6UjvfvShnfctR3ij8.zAoiDrsIH11CWmeNT3MY5tsCmv6WeN.",
+      "name": "vanthanh",
       "id": 1
     },
     {
-      "email": "member@gmail.com",
-      "password": "$2a$10$nrvRv8N6Hm/gupJN0TiYFuhD5sCpCERfUbJQ6pJrV6AFmW55LTUnK",
-      "name": "member",
+      "email": "nguyendb@gmail.com",
+      "password": "$2a$10$AUqXrk0uC4SY87vqXOymy..tR6rr3DYd7N4vVx/hL/7orokkbe0ii",
+      "name": "nguyendb",
       "id": 2
+    }
+  ],
+  "contact": [
+    {
+      "name": "ssfd",
+      "email": "skk@gmail.com",
+      "desc": "",
+      "id": 1
     }
   ]
 }
